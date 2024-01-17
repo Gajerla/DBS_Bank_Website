@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+.navbar {
+    background-color: white;
+    overflow: auto;
+    padding: 10px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top :0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    
+}
+
+.country-select select {
+    background-color: white;
+}
+
+.country-select {
+    display: flex;
+    justify-content: space-between;
+}
+
+#loginBtn {
+    margin-right: 100px;
+    padding: 35px;
+    border: 1px solid white;
+    color: white;
+    background-color: crimson;
+}
+
+#country {
+    margin-top: 30px;
+}
+
+.logo {
+    margin-left: 110px;
+}
+
+select {
+    border: 1px solid white;
+}
+
+footer {
+    background-color:whitesmoke;
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.footer-item {
+    padding: 10px;
+    transition: background-color 0.5s ease; 
+}
+
+.footer-item:hover {
+    background-color: crimson ; 
+    color: white;
+
+}
+footer a {
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.main{
+
+
+position:relative;
+top:70px;
+height: 500px;
+display: flex;
+overflow-x: hidden;
+overflow-y: hidden;
+
+
+}
+.image-container1{
+    background-image: url("https://www.dbs.com/in/iwov-resources/images/in/29-6-2022/personal%20banking.png");
+    width: 33.33%;
+  
+    background-size:cover;
+    background-position:center;
+    
+    animation: fade 2s ease-in;
+  
+}
+
+.image-container2{
+    background-image: url("https://www.dbs.com/in/iwov-resources/images/splitter/credit-card-banner.png");
+    width: 33.33%;
+    background-size: cover;
+    background-position:center;
+    
+}
+   
+.image-container3{
+    background-image: url("https://www.dbs.com/in/iwov-resources/images/in/29-6-2022/Wealth%20management.jpg");
+    width: 33.33%;
+    background-size: cover;
+    background-position:center;
+    
+}
+.h1
+{
+    position: relative;
+    top:160px;
+    width: 400px;
+    left: 54px;
+    color:white;
+    font-weight: 600px;
+    font-size: 36px;
+}
+.para{
+    font-size: 18px;
+    font-weight: 400;
+    color:white;
+    width: 250px;
+    position: relative;
+    top:190px;
+    left:54px;
+
+}
+
+.Button{
+    color:white;
+    padding : 8px 12px;
+    width: 90px;
+    
+    background-color: crimson;
+    border-radius: 4px;
+}
+.b1{
+    left: 54px;
+    position: relative;
+    top:200px;
+
+}
+.b2{
+    left: 54px;
+    position: relative;
+    top:217px;
+}
+.b3{
+    left:54px;
+    position: relative;
+    top:200px;
+}
+

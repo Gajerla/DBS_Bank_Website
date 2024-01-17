@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.navbar {
+    background-color: white;
+    overflow: auto;
+    padding: 10px;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top :0;   
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.country-select select {
+    background-color: white;
+}
+
+.country-select {
+    display: flex;
+    justify-content: space-between;
+}
+
+#loginBtn {
+    margin-right: 100px;
+    padding: 35px;
+    border: 1px solid white;
+    color: white;
+    background-color: crimson;
+}
+
+#country {
+    margin-top: 30px;
+}
+
+.logo {
+    margin-left: 110px;
+}
+
+select {
+    border: 1px solid white;
+}
+
+footer {
+    background-color:whitesmoke;
+    padding: 0px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    
+}
+
+.footer-item {
+    padding: 10px;
+    transition: background-color 0.5s ease; 
+}
+
+.footer-item:hover {
+    background-color: whitesmoke ; /* Change the background color on hover */
+}
+footer a {
+  color: black;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.footer-item:hover {
+    background-color: crimson ; 
+    color:white;
+
+}
+.main{
+    background-image: url("https://www.dbs.com/in/iwov-resources/images/in/27-04-2020/DAH%202.jpg"); 
+    
+    background-size: cover;
+    
+    position:relative;
+    top:70px;
+    height: 500px;  
+    overflow-y: hidden;
+    overflow-x: hidden;
+} 
+.in1{
+    
+    width: 170px;
+    color:white;
+    font-size:36px;
+    font-weight: 600px;
+    position:relative;
+    top:200px;
+    left:50px;
+    font-family: sans-serif;
+    
+
+}
+.in2{
+    
+    width:450px;
+    font-family: sans-serif;
+    color:white;
+    position: relative;
+    left:50px;
+    top:235px;
+    font-size: 18px;
+    font-weight: 400px;
+    
+    
+
+}
+.in3{
+
+    width: 100px;
+    color:white;
+    font-family:sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
+    padding:8px 12px;
+    position: relative;
+    top:260px;
+    left:50px;
+    background-color: crimson;
+    border-radius: 5px;
+
+}
