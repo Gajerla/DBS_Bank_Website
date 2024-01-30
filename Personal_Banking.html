@@ -8,24 +8,26 @@
    <link rel="icon" type="image/x-icon" href="./android-chrome-512x512.png">
 </head>
 <body>
-    <nav class="navbar">
+    <nav>
         <div class="logo">
             <img src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/dbs_logo.svg" alt="Company Logo">
         </div>
-    
-        <div class="country-select">
-            <div id="country">
-                <select>
-                    <option value="us" class="Myfont">India</option>
-                    <option value="uk" class="Myfont">UK</option>
-                    <option value="in" class="Myfont">USA</option>
-                </select>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="toggleDropdown()">India<img src="./icons8-sort-down-48 (1).png" alt="" height="13px" width="9px" style="margin-left: 10px;"></button>
+            
+            <div class="dropdown-content">
+                <a onclick="selectCountry('USA')">USA</a>
+                <a onclick="selectCountry('UK')">UK</a>
+                <a onclick="selectCountry('Canada')">Canada</a>
+                <a onclick="selectCountry('India')">India</a>
             </div>
     
-            <div class="buttons">
-                <button id="loginBtn">Login</button>
-            </div>
         </div>
+        <button class="login"> <img class="lock" src="./icons8-lock-50 (1).png" alt="" style="margin-right: 15px;">Login</button>
+    
+        
+    
+        
     </nav>
 
     <!-- Main content -->
@@ -60,11 +62,51 @@
 
 
     <footer>
-        <a href="./DBS_Bank_India.html" class="footer-item">DBS Bank India</a>
-        <a href="./Personal_Banking.html" class="footer-item">Personal Banking</a>
-        <a href="./SME_Banking.html" class="footer-item">Corporate and SME Banking</a>
-        <a href="./DBS_Tech_India.html" class="footer-item">DBS Tech India</a>
-        <a href="./Visit_Us.html" class="footer-item">Visit Us</a>
+        <div id="page1" class="footer-item page-link" onclick="redirectToPage('page1')">DBS Bank India</div>
+        <div id="page2" class="footer-item page-link rline"  onclick="redirectToPage('page2')">Personal Banking</div>
+        <div id="page3" class="footer-item page-link"  onclick="redirectToPage('page3')">Corporate and SME Banking</div>
+        <div id="page4" class="footer-item page-link" onclick="redirectToPage('page4')">DBS Tech India</div>
+        <div id="page5" class="footer-item page-link" onclick="redirectToPage('page5')">Visit Us</div>
     </footer>
+    <script>
+        // Function to redirect to another page
+    
+        function redirectToPage(id) {
+            event.preventDefault();
+            if(id =='page1'){
+                window.location.href="./DBS_Bank_India.html"
+            
+
+
+                
+            }
+             else if(id =='page2'){
+                window.location.href = "./Personal_Banking.html";  
+               
+
+                
+            }
+            else if(id =='page3'){
+                window.location.href = "./SME_Banking.html"; 
+              
+
+                
+            }
+            else if(id =='page4'){
+                window.location.href = "./DBS_Tech_India.html"; 
+             
+
+                
+            }
+            else if(id =='page5'){
+                window.location.href = "./Visit_Us.html"; 
+                   
+            }
+        
+          
+        }
+    
+    
+    </script>
 </body>
 </html>

@@ -8,337 +8,279 @@
     <link rel="icon" type="image/x-icon" href="./android-chrome-512x512.png">
 </head>
 <body>
-    <nav class="navbar">
+    <nav class="hello">
         <div class="logo">
             <img src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/dbs_logo.svg" alt="Company Logo">
         </div>
-    
-        <div class="country-select">
-            <div id="country">
-                <select>
-                    <option value="us" class="Myfont">India</option>
-                    <option value="uk" class="Myfont">UK</option>
-                    <option value="in" class="Myfont">USA</option>
-                </select>
-            </div>
-    
-            <div class="buttons">
-                <button id="loginBtn">Login</button>
+        <div class="dropdown">
+            <button class="dropbtn" onclick="toggleDropdown()">India<img src="./icons8-sort-down-48 (1).png" alt="" height="13px" width="9px" style="margin-left: 10px;"></button>
+            <div class="dropdown-content">
+                <a onclick="selectCountry('USA')">USA</a>
+                <a onclick="selectCountry('UK')">UK</a>
+                <a onclick="selectCountry('Canada')">Canada</a>
+                <a onclick="selectCountry('India')">India</a>
             </div>
         </div>
+        <button class="login"> <img class="lock" src="./icons8-lock-50 (1).png" alt="" style="margin-right: 15px;">Login</button>
     </nav>
-
-
-
+    
     <!-- Main -->
     <div class="main">
-        <div class="div1">
-
-
-        </div>
-
-
+        <div class="div1"></div>
         <div class="div2">
             <nav class="nav1">
-                <div>
-                    Self-Service Banking
+                <div>Self-Service Banking</div>
+                <div>Branch</div>
+            </nav> 
+            <div class="totalRadioContainer">
+                <div class="radioContent rc1">
+                    <input type="radio" name="class" id="classA" class="r1" value="one">
+                    <label for="classA">&nbsp;&nbsp;DBS Branches</label>
                 </div>
-                <div>
-                    Branch
+                <div class="radioContent rc1"> 
+                    <input type="radio" name="class" id="classB" class="r2" value="two">
+                    <label for="classB">&nbsp;&nbsp;Treasures Centre</label>
                 </div>
-
-            </nav>
-
-          <div class ="totalRadioContainer">
-            <div class="radioContent rc1">
-                <input type="radio" name="" id="" class="r1" value="">
-                <div class="content1">DBS Branches</div>
+                <div class="radioContent rc1">
+                    <input type="radio" name="class" id="classC" class="r3" value="three">
+                    <label for="classC">&nbsp;&nbsp;SME Banking Center</label>
+                </div>
             </div>
-
-
-            <div class="radioContent rc1"> 
-                <input type="radio" name="" id="" class="r2">
-                <div class="content2">Treasures Centre </div> 
-            </div>
-
-
-            <div class="radioContent rc1">
-                <input type="radio" name="" id="" class="r3">
-                <div class="content3">SME Banking Center</div>
-            </div>
-
-
-           </div>
-
-
         </div>
-
-
+    
         <div class="div3">
-            <div class="nav3">
-                1-517 of 517 Results nearby
-            </div>
-
-            <div class="labelscontainer">
-                <div class="c1">
-                
-                    <!-- 1st Content -->
-                    <nav class="subnav">
-                    <div>
-                        <img class="logoDBS" src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="">
-    
-                    </div>
-                    <div class="heading">
-                        Abhirampuram, Chennai
-                    </div>
-                    </nav>
-                    <div class="mainContent">
-                        #Old no.104(New no.48), Abhiramapuram, 4th Street, Alwarpet, Chennai, Tamil Nadu 600018
-                    </div>  
-                    <div>
-                        <hr>
-                    </div>
-                </div>
-    
-                <!-- 2nd content -->
-                <div class="c1">
-                    
-                    <nav class="subnav">
-                    <div>
-                        <img class="logoDBS" src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="">
-    
-                    </div>
-                    <div class="heading">
-                        Abhirampuram, Chennai
-                    </div>
-                    </nav>
-                    <div class="mainContent">
-                        #Old no.104(New no.48), Abhiramapuram, 4th Street, Alwarpet, Chennai, Tamil Nadu 600018
-                    </div>  
-                    <div>
-                        <hr>
-                    </div>
-                </div>
-    
-                <!-- 3rd content -->
-                <div class="c1">
-                    
-                    <nav class="subnav">
-                    <div>
-                        <img class="logoDBS" src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="">
-    
-                    </div>
-                    <div class="heading">
-                        Abhirampuram, Chennai
-                    </div>
-                    </nav>
-                    <div class="mainContent">
-                        #Old no.104(New no.48), Abhiramapuram, 4th Street, Alwarpet, Chennai, Tamil Nadu 600018
-                    </div>  
-                    <div>
-                        <hr>
-                    </div>
-                </div>
-    
-    
-                <!-- 4th content -->
-                <div class="c1">
-                    
-                    <nav class="subnav">
-                    <div>
-                        <img class="logoDBS" src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="">
-    
-                    </div>
-                    <div class="heading">
-                        Abhirampuram, Chennai
-                    </div>
-                    </nav>
-                    <div class="mainContent">
-                        #Old no.104(New no.48), Abhiramapuram, 4th Street, Alwarpet, Chennai, Tamil Nadu 600018
-                    </div>  
-                    <div>
-                        <hr>
-                    </div>
-                </div>
-    
-                <!-- 5th content -->
-                <div class="c1">
-                    
-                    <nav class="subnav">
-                    <div>
-                        <img class="logoDBS" src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="">
-    
-                    </div>
-                    <div class="heading">
-                        Abhirampuram, Chennai
-                    </div>
-                    </nav>
-                    <div class="mainContent">
-                        #Old no.104(New no.48), Abhiramapuram, 4th Street, Alwarpet, Chennai, Tamil Nadu 600018
-                    </div>  
-                    <div>
-                        <hr>
-                    </div>
-                </div>
-    
-                <!-- 6th content -->
-    
-                <div class="c1">
-                    
-                    <nav class="subnav">
-                    <div>
-                        <img class="logoDBS" src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="">
-    
-                    </div>
-                    <div class="heading">
-                        Abhirampuram, Chennai
-                    </div>
-                    </nav>
-                    <div class="mainContent">
-                        #Old no.104(New no.48), Abhiramapuram, 4th Street, Alwarpet, Chennai, Tamil Nadu 600018
-                    </div>  
-                    <div>
-                        <hr>
-                    </div>
-                </div>
-    
-                <!-- 7th content -->
-                <div class="c1">
-                    
-                    <nav class="subnav">
-                    <div>
-                        <img class="logoDBS" src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="">
-    
-                    </div>
-                    <div class="heading">
-                        Abhirampuram, Chennai
-                    </div>
-                    </nav>
-                    <div class="mainContent">
-                        #Old no.104(New no.48), Abhiramapuram, 4th Street, Alwarpet, Chennai, Tamil Nadu 600018
-                    </div>  
-                    <div>
-                        <hr>
-                    </div>
-                </div>
-    
-    
-                <!-- 8th content -->
-                <div class="c1">
-                    
-                    <nav class="subnav">
-                    <div>
-                        <img class="logoDBS" src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="">
-    
-                    </div>
-                    <div class="heading">
-                        Abhirampuram, Chennai
-                    </div>
-                    </nav>
-                    <div class="mainContent">
-                        #Old no.104(New no.48), Abhiramapuram, 4th Street, Alwarpet, Chennai, Tamil Nadu 600018
-                    </div>  
-                    <div>
-                        <hr>
-                    </div>
-                </div>
-    
-                <!-- 9th content -->
-                <div class="c1">
-                    
-                    <nav class="subnav">
-                    <div>
-                        <img class="logoDBS" src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="">
-    
-                    </div>
-                    <div class="heading">
-                        Abhirampuram, Chennai
-                    </div>
-                    </nav>
-                    <div class="mainContent">
-                        #Old no.104(New no.48), Abhiramapuram, 4th Street, Alwarpet, Chennai, Tamil Nadu 600018
-                    </div>
-                    <div>
-                        <hr>
-                    </div>  
-                </div>
-    
-                <!-- 10th content -->
-                <div class="c1">
-                    
-                    <nav class="subnav">
-                    <div>
-                        <img class="logoDBS" src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="">
-    
-                    </div>
-                    <div class="heading">
-                        Abhirampuram, Chennai
-                    </div>
-                    </nav>
-                    <div class="mainContent">
-                        #Old no.104(New no.48), Abhiramapuram, 4th Street, Alwarpet, Chennai, Tamil Nadu 600018
-                    </div>  
-                    <div class="horizontal-line">
-                        <hr>
-                    </div>
-                </div>
-            </div>
-
-
+            <div class="nav3">No of address: <span id="addressCount"></span></div>
+            <div id="addressesContainer" class="addresses-container"></div>
         </div>
-
+    
         <div class="div4">
-            <!-- <img src="https://www.mapsofindia.com/maps/india/india-rivers-map.jpg" alt="" height="470px" width="380px"> -->
-            <div class="logo1">
-                <img src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="" height="28px"
-                width="24px">
-            </div>
-            <div class="logo2">
-                <img src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="" height="28px"
-                width="24px">
-            </div>
-
-            <div class="logo3">
-                <img src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="" height="28px"
-                width="24px">
-            </div>
-            <div class="logo4">
-                <img src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="" height="28px"
-                width="24px">
-            </div>
-            <div class="logo5">
-                <img src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="" height="28px"
-                width="24px">
-            </div>
-            <div class="logo6">
-                <img src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="" height="28px"
-                width="24px">
-            </div>
-            <div class="logo7">
-                <img src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="" height="28px"
-                width="24px">
-            </div>
-
+            <div class="logo1"><img src="https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png" alt="" height="28px" width="24px"></div>
         </div>
-        <div class="div5">
-
-        </div>
-
-    </div>
-
-
-
-
-
-
-    <footer>
-        <a href="./DBS_Bank_India.html" class="footer-item">DBS Bank India</a>
-        <a href="./Personal_Banking.html" class="footer-item">Personal Banking</a>
-        <a href="./SME_Banking.html" class="footer-item">Corporate and SME Banking</a>
-        <a href="./DBS_Tech_India.html" class="footer-item">DBS Tech India</a>
-        <a href="Visit_Us.html" class="footer-item">Visit Us</a>
-    </footer>
-
     
+        <div class="div5"></div>
+    </div>
+    
+    <footer>
+        <div id="page1" class="footer-item page-link" onclick="redirectToPage('page1')">DBS Bank India</div>
+        <div id="page2" class="footer-item page-link"  onclick="redirectToPage('page2')">Personal Banking</div>
+        <div id="page3" class="footer-item page-link"  onclick="redirectToPage('page3')">Corporate and SME Banking</div>
+        <div id="page4" class="footer-item page-link" onclick="redirectToPage('page4')">DBS Tech India</div>
+        <div id="page5" class="footer-item page-link rline" onclick="redirectToPage('page5')">Visit Us</div>
+    </footer>
+    
+    <script>
+        var defaultAddresses = [
+            {
+                city: "Hyderabad",
+                address: "#Old no.104(New no.48), Abhiramapuram, 4th Street, Alwarpet, Chennai",
+                logo: "https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+            },
+            {
+                city: "Chennai",
+                address: "#Old no.104(New no.48), mumabu, 4th Street, Alwarpet, Chennai",
+                logo: "https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+            },
+            {
+                city: "Pune",
+                address: "#Old no.104(New no.48), mumabu, 4th Street, Pune",
+                logo: "https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+            },
+            {
+                city: "Goa",
+                address: "#Old no.104(New no.48), mumabu, 4th Street, Goa",
+                logo:"https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+            },
+            {
+                city: "Pune",
+                address: "#Old no.104(New no.48), mumabu, 4th Street, Pune",
+                logo: "https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+            },
+            {
+                city: "Goa",
+                address: "#Old no.104(New no.48), mumabu, 4th Street, Goa",
+                logo:"https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+            },  {
+                city: "Pune",
+                address: "#Old no.104(New no.48), mumabu, 4th Street, Pune",
+                logo: "https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+            },
+            {
+                city: "Goa",
+                address: "#Old no.104(New no.48), mumabu, 4th Street, Goa",
+                logo:"https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+            }
+        ];
+
+        var addressesArray = [
+            {
+                id: "DBS",
+                addresses: [
+                    {
+                        city: "Chennai",
+                        address: "#Old no.104(New no.48), mumabu, 4th Street, Alwarpet, Chennai",
+                        logo: "https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+                    },
+                    {
+                        city: "Mumbai",
+                        address: "#Old no.104(New no.48), mumabu, 4th Street, Mumbai",
+                        logo: "https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+                    },
+                    {
+                        city: "Bangalore",
+                        address: "#Old no.104(New no.48), mumabu, 4th Street, Bangalore",
+                        logo: "https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+                    },
+                    {
+                        city: "Chennai",
+                        address: "#Old no.104(New no.48), mumabu, 4th Street, Alwarpet, Chennai",
+                        logo: "https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+                    },
+                    {
+                        city: "Mumbai",
+                        address: "#Old no.104(New no.48), mumabu, 4th Street, Mumbai",
+                        logo: "https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+                    },
+                    {
+                        city: "Bangalore",
+                        address: "#Old no.104(New no.48), mumabu, 4th Street, Bangalore",
+                        logo: "https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+                    }
+                ]
+            },
+            {
+                id: "Treasures",
+                addresses: [
+                    {
+                        city: "Pune",
+                        address: "#Old no.104(New no.48), mumabu, 4th Street, Pune",
+                        logo: "https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+                    },
+                    {
+                        city: "Delhi",
+                        address: "#Old no.104(New no.48), mumabu, 4th Street, Delhi",
+                        logo: "https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+                    }
+                ]
+            },
+            {
+                id: "SME",
+                addresses: [
+                    {
+                        city: "Goa",
+                        address: "#Old no.0104(New no.48), mumabu, 4th Street, Goa",
+                        logo: "https://www.dbs.com/in/iwov-resources/flp/splitter/images/maps-icons-pi/DBS.png"
+                    }
+                ]
+            }
+        ];
+
+        function displayDefaultAddresses() {
+            var addressesContainer = document.getElementById("addressesContainer");
+            addressesContainer.innerHTML = "";
+
+            defaultAddresses.forEach(function(address) {
+                var addressElement = document.createElement("div");
+                addressElement.innerHTML = `
+                
+                <div class="navTop">
+
+                    <div class="rlogo">
+                        <img class="logoDBS" src="${address.logo}" alt="">
+                        <div class="heading">${address.city}</div>
+                    </div>
+                    
+                    <div class="mainContent">${address.address}</div>
+                    <hr class="space">
+                    <hr>
+                </div>    
+
+                `;
+                addressesContainer.appendChild(addressElement);
+            });
+
+            document.getElementById("addressCount").textContent = defaultAddresses.length;
+        }
+
+        function displayAddresses(optionId) {
+            var index;
+            if (optionId === "one") {
+                index = 0; // Index for DBS Branches
+            } else if (optionId === "two") {
+                index = 1; // Index for Treasures Centre
+            } else if (optionId === "three") {
+                index = 2; // Index for SME Banking Center
+            }
+
+            var selectedAddresses = addressesArray[index].addresses;
+            
+            document.getElementById("addressCount").textContent = selectedAddresses.length;
+
+            var addressesContainer = document.getElementById("addressesContainer");
+            addressesContainer.innerHTML = "";
+
+            selectedAddresses.forEach(function(address) {
+                var addressElement = document.createElement("div");
+                addressElement.innerHTML = `
+                <div class="navTop">
+                    <div class="rlogo">
+                        <img class="logoDBS" src="${address.logo}" alt="">
+                        <div class="heading">${address.city}</div>
+                        
+                    </div>
+                    
+                    
+                    <div class="mainContent">${address.address}</div>
+                    <hr class="space">
+                    <hr>
+                </div>    
+                `;
+                addressesContainer.appendChild(addressElement);
+            });
+        }
+
+        window.addEventListener('load', function() {
+            displayDefaultAddresses();
+        });
+
+        document.querySelectorAll('input[name="class"]').forEach(function(radio) {
+            radio.addEventListener('change', function() {
+                displayAddresses(this.value);
+            });
+        });
+
+        function redirectToPage(id) {
+            event.preventDefault();
+            
+            if(id =='page1'){
+                window.location.href="./DBS_Bank_India.html"
+           
+             
+            }
+             else if(id =='page2'){
+                window.location.href = "./Personal_Banking.html";  
+                
+
+                
+            }
+            else if(id =='page3'){
+                window.location.href = "./SME_Banking.html"; 
+             
+
+                
+            }
+            else if(id =='page4'){
+                window.location.href = "./DBS_Tech_India.html"; 
+               
+
+                
+            }
+            else if(id =='page5'){
+                window.location.href = "./Visit_Us.html"; 
+            
+            }
+        
+          
+        }
+    </script>
 </body>
 </html>
